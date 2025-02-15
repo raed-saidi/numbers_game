@@ -8,12 +8,13 @@
 </head>
 <body id="body">
     <h1>Jeu du Chiffre cache</h1>
-    <div class="container">   
-        <button class="easy" onclick="easy()" >Facile</button>    
-        <button class="intermediate" onclick="medium()" >Intermediaire</button>
-        <button class="hard" onclick="hard()" >Difficile</button>
-    </div>
-
+    <label for="difficulty">Choose a difficulty:</label>
+    <select name="difficulty" id="difficulty">
+        <option value="facile">Facile</option>
+        <option value="intermediaire">Intermediaire</option>
+        <option value="difficile">Difficile</option>
+    </select>
+    <button class="new-game" onclick="startNewGame()">Start Game</button>
     <script src="index.js"></script>
 </body>
 </html>
