@@ -1,4 +1,4 @@
-const difficulty = document.getElementById('difficulty');
+const difficulty = document.querySelector('#difficulty');
 
 const difficultyLevels = {
     facile: { maxAttempts: 10, maxNumber: 50 },
